@@ -1,0 +1,3 @@
+[submodule "Assets/Scripts/UnityTools"]
+	path = Assets/Scripts/UnityTools
+	url = https://github.com/yahay505/UnityTools
