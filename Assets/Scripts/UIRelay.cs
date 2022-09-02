@@ -7,12 +7,12 @@ using UnityEngine;
         public void StartAsServer() {
             Cursor.lockState = CursorLockMode.Locked;
 
-            newNetworkManager.main.SetupServer();
+            NetworkManager.main.SetupServer();
         }
         public void StartAsClient()
         {
             Cursor.lockState = CursorLockMode.Locked;
 
-            newNetworkManager.main.SetupClient();
+            NetworkManager.main.SetupClient();
         }
     }

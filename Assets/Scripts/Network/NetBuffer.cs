@@ -18,15 +18,15 @@ namespace Network
              }
          }
 
-        private List<Packet> _inc = new List<Packet>();
+        private List<Packet> _incoming= new List<Packet>();
 
         public void Put(Packet p)
         {
-            _inc.Add(p);
+            _incoming.Add(p);
         }
         public void PutMany(IEnumerable<Packet> p)
         {
-            _inc.AddRange(p);
+            _incoming.AddRange(p);
         }
 
         public Packet[] Pop()
@@ -36,8 +36,8 @@ namespace Network
 
         public void NextFrame()
         {
-            buffer.Enqueue(_inc.ToArray());
-            _inc = new List<Packet>();
+            buffer.Enqueue(_incoming.ToArray());
+            _incoming = new List<Packet>();
 
         }
     }

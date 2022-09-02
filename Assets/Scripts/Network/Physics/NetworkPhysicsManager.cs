@@ -23,14 +23,12 @@ namespace Network.Physics
 
         public void ServerNetworkPhysicsTick()
         {
-            
-            ServerManager.SendToAll(CreateServerUpdatePacket(),TransportMode.ReqNetTick);
-            
-            
-            
+            ServerManager.SendToAll(CreateServerUpdatePacket(), TransportMode.ReqNetTick);
+
+
             Packet CreateServerUpdatePacket()
             {
-                var timeBetween = Time.fixedDeltaTime * newNetworkManager.fixed2NetworkRatio;
+                var timeBetween = Time.fixedDeltaTime * NetworkManager.fixed2NetworkRatio;
                 const int targetKbps = 231;
                 const int bpp = 54 * 8;
                 var updates = FindObjectsOfType<NetworkedBody>()
@@ -56,6 +54,7 @@ namespace Network.Physics
         #endregion
 
         #region Client
+
         public void InitializeAsClient()
         {
             ClientManager.RegisterPacketHandler(16, ClientHandleNbodyUpdatePacket);
@@ -65,26 +64,28 @@ namespace Network.Physics
         {
             HandleNbodyUpdatePacket(packet);
         }
+
         public void ClientNetworkPhysicsTick()
         {
-            
-            ClientManager.Send(CreateClientUpdatePacket(),TransportMode.ReqNetTick);
-            
-            
-            
+            ClientManager.Send(CreateClientUpdatePacket(), TransportMode.ReqNetTick);
+
+
             Packet CreateClientUpdatePacket()
             {
-                var timeBetween = Time.fixedDeltaTime * newNetworkManager.fixed2NetworkRatio;
+                var timeBetween = Time.fixedDeltaTime * NetworkManager.fixed2NetworkRatio;
                 const int targetKbps = 230;
                 const int bpp = 54 * 8;
                 var updates = FindObjectsOfType<NetworkedBody>()
-                    .Where(body=>body.Authority==ClientManager.ID)
+                    .Where(body => body.Authority == ClientManager.ID)
                     .Where(body => (body.accumulated >= 0))
                     .OrderByDescending(body => body.accumulated)
                     .Take(
-                        (int) Math.Floor(targetKbps * 1024 * timeBetween / bpp)
+                        Mathf.FloorToInt(targetKbps * 1024 * timeBetween / bpp)
                         // 2
-                    ).CreateManyUpdatePackets()
+                    )
+                    .Concat(
+                        FindObjectsOfType<NetworkedBody>().Where(b => b.Owned && b.Authority == ClientManager.ID))//always include owned items
+                    .CreateManyUpdatePackets()
                     .ToArray();
                 var packet = new Packet(16).With(updates.Length);
                 foreach (var update in updates)
@@ -101,19 +102,21 @@ namespace Network.Physics
         #endregion
 
         #region general
-            private void HandleNbodyUpdatePacket(Packet packet)
-            {
-                var updateCount = packet.ReadInt();
-                var updates= 
-                   updateCount.Times(()=>packet.readNBodyUpdate());
-                // var count = packet.ReadInt();
-                // NBodyUpdate[] arr = new NBodyUpdate[count];
-                // for (int i = 0; i < count; i++)
-                // {
-                //     arr[i] = packet.readNBodyUpdate();
-                // }
-                NetworkedBody.ApplyUpdates(updates);
-            }
+
+        private void HandleNbodyUpdatePacket(Packet packet)
+        {
+            var updateCount = packet.ReadInt();
+            var updates =
+                updateCount.Times(packet.readNBodyUpdate);
+            // var count = packet.ReadInt();
+            // NBodyUpdate[] arr = new NBodyUpdate[count];
+            // for (int i = 0; i < count; i++)
+            // {
+            //     arr[i] = packet.readNBodyUpdate();
+            // }
+            NetworkedBody.ApplyUpdates(updates);
+        }
+
         #endregion
     }
 }

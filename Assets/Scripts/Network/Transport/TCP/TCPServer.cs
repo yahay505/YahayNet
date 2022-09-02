@@ -24,7 +24,7 @@ namespace Network.Transport.TCP
             _tcp = new(IPAddress.Any, 2500);
             _tcp.Start();
             TCPRemoteClient.server = this;
-            UnsecureRegisterPacketHandler(0, (packet,id)=>_clients[id].Send(new Packet(0).With(id),TransportMode.None));
+            RegisterPacketHandlerUnchecked(0, (packet,id)=>_clients[id].Send(new Packet(0).With(id),TransportMode.None));
 
         }
 
@@ -123,6 +123,9 @@ namespace Network.Transport.TCP
                 catch (Exception e)
                 {
                     Debug.LogError($"Error in TCP Handling packet with (id:{packet.ID},size:{packet.Length()}) \n Content:{packet.ToArray().ToHexString()} \n err:{e}");
+                    // Debug.LogError($"Error in TCP Handling packet with (id:{packet.ID},size:{packet.Length()}) \n Content:{packet.ToArray().ToHexString()} ");
+
+                    throw;
                 }
             }
         }
@@ -166,10 +169,10 @@ namespace Network.Transport.TCP
             public void RegisterPacketHandler(int id, Action<Packet,int> handler)
             {
                 Contract.Assert(id>10);
-                UnsecureRegisterPacketHandler(id,handler);
+                RegisterPacketHandlerUnchecked(id,handler);
 
             }
-            private void UnsecureRegisterPacketHandler(int id, Action<Packet, int> handler)
+            private void RegisterPacketHandlerUnchecked(int id, Action<Packet, int> handler)
             {
                 _handlers[id] = handler;
 

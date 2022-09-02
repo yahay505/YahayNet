@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Network.Player;
 using Network.Transport.TCP;
 using UnityEngine;
+using UnityTools;
+using Object = UnityEngine.Object;
 
 namespace Network
 {
@@ -30,14 +33,18 @@ namespace Network
                     Clients.Remove(id);
                     Debug.Log($"Client {id} disconnected");
                 };
-            }); 
+            });
+            foreach (var handler in Packets.Client2Server.Handlers)
+            {
+                RegisterPacketHandler(handler.Key,handler.Value);
+            }
             
-            
+
             
 
         }
 
-        private static int nextID = 1;
+        private static int nextID = 2;
         static int GetNextID() => nextID++;
         public static void ServerUpdate(bool handleBuffered)
         {
@@ -45,6 +52,14 @@ namespace Network
             foreach (var remoteClient in Servers.SelectMany(server=>server.AcceptIncomingConnection(GetNextID)))
             {
                 Clients.Add(remoteClient.ID,remoteClient);
+                
+// AvatarManager.main.SummonAvatar(remoteClient);           
+                SendToAll(Packets.Server2Client.NewPeer(remoteClient),TransportMode.ReqAck);
+                foreach (var peer in NetworkManager.main.peers)
+                {
+                    remoteClient.Send(Packets.Server2Client.NewPeer(peer),TransportMode.ReqAck);
+                }
+                NetworkManager.main.NewPeer(remoteClient.ID);
             }
 
             if (handleBuffered)
@@ -54,6 +69,7 @@ namespace Network
             Servers.ForEach(server=>server.HandlePackets());
 
         }
+
 
         public static void RegisterPacketHandler(int id, Action<Packet, int> handler)
         {

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading.Tasks;
@@ -37,6 +38,7 @@ namespace Network.Transport.TCP
 
             try
             {
+                // File.OpenWrite("")
                 _tcp = new TcpClient();
                 _tcp.Connect(IPAddress.Loopback, 2500);
                 _stream = _tcp.GetStream();
@@ -107,6 +109,8 @@ namespace Network.Transport.TCP
                 catch (Exception e)
                 {
                     Debug.LogError($"Error in TCP Handling packet with (id:{packet.ID},size:{packet.Length()}) \n Content:{packet.ToArray().ToHexString()} \n err:{e}");
+                    // Debug.LogError($"Error in TCP Handling packet with (id:{packet.ID},size:{packet.Length()}) \n Content:{packet.ToArray().ToHexString()} ");
+                    throw;
                 }
             
             }

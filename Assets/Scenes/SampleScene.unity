@@ -156,12 +156,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 169
+  AutoRegister: 1
+  ID: 425
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1841462
 Rigidbody:
@@ -290,12 +288,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 132
+  AutoRegister: 1
+  ID: 257
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1976759
 Rigidbody:
@@ -424,12 +420,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 77
+  AutoRegister: 1
+  ID: 258
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &9305499
 Rigidbody:
@@ -558,12 +552,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 84
+  AutoRegister: 1
+  ID: 259
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &54132145
 Rigidbody:
@@ -692,12 +684,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 71
+  AutoRegister: 1
+  ID: 260
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &60450327
 Rigidbody:
@@ -826,12 +816,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 53
+  AutoRegister: 1
+  ID: 261
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &78110611
 Rigidbody:
@@ -960,12 +948,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 125
+  AutoRegister: 1
+  ID: 262
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &90759127
 Rigidbody:
@@ -1094,12 +1080,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 58
+  AutoRegister: 1
+  ID: 263
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &101621720
 Rigidbody:
@@ -1228,12 +1212,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 63
+  AutoRegister: 1
+  ID: 264
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &106757829
 Rigidbody:
@@ -1362,12 +1344,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 72
+  AutoRegister: 1
+  ID: 265
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &115072893
 Rigidbody:
@@ -1496,12 +1476,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 115
+  AutoRegister: 1
+  ID: 266
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &135005542
 Rigidbody:
@@ -1630,12 +1608,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 93
+  AutoRegister: 1
+  ID: 267
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &140467616
 Rigidbody:
@@ -1764,12 +1740,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 157
+  AutoRegister: 1
+  ID: 268
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &146503353
 Rigidbody:
@@ -1898,12 +1872,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 148
+  AutoRegister: 1
+  ID: 269
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &173598109
 Rigidbody:
@@ -2032,12 +2004,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 75
+  AutoRegister: 1
+  ID: 270
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &192236861
 Rigidbody:
@@ -2166,12 +2136,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 112
+  AutoRegister: 1
+  ID: 271
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &203066456
 Rigidbody:
@@ -2300,12 +2268,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 20
+  AutoRegister: 1
+  ID: 272
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &221354894
 Rigidbody:
@@ -2434,12 +2400,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 81
+  AutoRegister: 1
+  ID: 273
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &226421569
 Rigidbody:
@@ -2568,12 +2532,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 25
+  AutoRegister: 1
+  ID: 274
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &230329929
 Rigidbody:
@@ -2702,12 +2664,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 114
+  AutoRegister: 1
+  ID: 275
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &242252659
 Rigidbody:
@@ -2836,12 +2796,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 123
+  AutoRegister: 1
+  ID: 276
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &242812352
 Rigidbody:
@@ -2970,12 +2928,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 111
+  AutoRegister: 1
+  ID: 277
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &283376230
 Rigidbody:
@@ -3104,12 +3060,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 37
+  AutoRegister: 1
+  ID: 278
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &306847140
 Rigidbody:
@@ -3238,12 +3192,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 26
+  AutoRegister: 1
+  ID: 279
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &308268975
 Rigidbody:
@@ -3372,12 +3324,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 89
+  AutoRegister: 1
+  ID: 280
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &310908173
 Rigidbody:
@@ -3664,12 +3614,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 50
+  AutoRegister: 1
+  ID: 281
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &325028333
 Rigidbody:
@@ -3798,12 +3746,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 161
+  AutoRegister: 1
+  ID: 282
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &334811483
 Rigidbody:
@@ -3932,12 +3878,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 67
+  AutoRegister: 1
+  ID: 283
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &348200757
 Rigidbody:
@@ -4066,12 +4010,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 107
+  AutoRegister: 1
+  ID: 284
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &365459575
 Rigidbody:
@@ -4167,6 +4109,51 @@ Transform:
   m_Father: {fileID: 542548183}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &382489133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 382489135}
+  - component: {fileID: 382489134}
+  m_Layer: 0
+  m_Name: NetworkManager Holder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &382489134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382489133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae7daab0d4d4e389008c4d4ee5c78ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isServer: 0
+--- !u!4 &382489135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382489133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &397180881
 GameObject:
   m_ObjectHideFlags: 0
@@ -4200,12 +4187,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 139
+  AutoRegister: 1
+  ID: 285
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &397180883
 Rigidbody:
@@ -4334,12 +4319,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 42
+  AutoRegister: 1
+  ID: 286
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &427598239
 Rigidbody:
@@ -4468,12 +4451,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 14
+  AutoRegister: 1
+  ID: 287
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &441383034
 Rigidbody:
@@ -4602,12 +4583,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 27
+  AutoRegister: 1
+  ID: 288
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &445986049
 Rigidbody:
@@ -4736,12 +4715,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 117
+  AutoRegister: 1
+  ID: 289
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &452326401
 Rigidbody:
@@ -4870,12 +4847,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 100
+  AutoRegister: 1
+  ID: 290
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &486670341
 Rigidbody:
@@ -5004,12 +4979,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 153
+  AutoRegister: 1
+  ID: 291
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &487866407
 Rigidbody:
@@ -5138,12 +5111,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 60
+  AutoRegister: 1
+  ID: 292
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &529531666
 Rigidbody:
@@ -5272,12 +5243,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 166
+  AutoRegister: 1
+  ID: 293
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &536290688
 Rigidbody:
@@ -5606,12 +5575,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 48
+  AutoRegister: 1
+  ID: 294
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &544279184
 Rigidbody:
@@ -5740,12 +5707,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 130
+  AutoRegister: 1
+  ID: 295
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &547623799
 Rigidbody:
@@ -5874,12 +5839,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 142
+  AutoRegister: 1
+  ID: 296
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &551377871
 Rigidbody:
@@ -6008,12 +5971,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 151
+  AutoRegister: 1
+  ID: 297
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &556242202
 Rigidbody:
@@ -6344,12 +6305,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 143
+  AutoRegister: 1
+  ID: 298
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &610904018
 Rigidbody:
@@ -6478,12 +6437,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 68
+  AutoRegister: 1
+  ID: 299
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &639421238
 Rigidbody:
@@ -6612,12 +6569,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 38
+  AutoRegister: 1
+  ID: 300
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &646947765
 Rigidbody:
@@ -6746,12 +6701,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 88
+  AutoRegister: 1
+  ID: 301
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &663346533
 Rigidbody:
@@ -6880,12 +6833,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 46
+  AutoRegister: 1
+  ID: 302
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &670980784
 Rigidbody:
@@ -7014,12 +6965,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 87
+  AutoRegister: 1
+  ID: 303
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &679493455
 Rigidbody:
@@ -7148,12 +7097,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 133
+  AutoRegister: 1
+  ID: 304
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &687858481
 Rigidbody:
@@ -7282,12 +7229,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 32
+  AutoRegister: 1
+  ID: 305
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &693342736
 Rigidbody:
@@ -7416,12 +7361,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 36
+  AutoRegister: 1
+  ID: 306
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &702165045
 Rigidbody:
@@ -7644,12 +7587,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 24
+  AutoRegister: 1
+  ID: 307
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &707429290
 Rigidbody:
@@ -7778,12 +7719,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 15
+  AutoRegister: 1
+  ID: 308
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &713474602
 Rigidbody:
@@ -7912,12 +7851,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 43
+  AutoRegister: 1
+  ID: 309
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &717264632
 Rigidbody:
@@ -8046,12 +7983,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 168
+  AutoRegister: 1
+  ID: 310
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &737467616
 Rigidbody:
@@ -8180,12 +8115,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 1
+  AutoRegister: 1
+  ID: 311
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &744628062
 Rigidbody:
@@ -8314,12 +8247,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 121
+  AutoRegister: 1
+  ID: 312
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &745781882
 Rigidbody:
@@ -8448,12 +8379,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 56
+  AutoRegister: 1
+  ID: 313
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &786712550
 Rigidbody:
@@ -8582,12 +8511,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 51
+  AutoRegister: 1
+  ID: 314
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &789549528
 Rigidbody:
@@ -8716,12 +8643,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 118
+  AutoRegister: 1
+  ID: 315
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &832268770
 Rigidbody:
@@ -8850,12 +8775,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 144
+  AutoRegister: 1
+  ID: 316
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &836657624
 Rigidbody:
@@ -8984,12 +8907,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 40
+  AutoRegister: 1
+  ID: 317
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &838363240
 Rigidbody:
@@ -9118,12 +9039,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 128
+  AutoRegister: 1
+  ID: 318
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &849531709
 Rigidbody:
@@ -9252,12 +9171,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 18
+  AutoRegister: 1
+  ID: 319
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &859258198
 Rigidbody:
@@ -9386,12 +9303,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 131
+  AutoRegister: 1
+  ID: 320
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &867334058
 Rigidbody:
@@ -9520,12 +9435,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 150
+  AutoRegister: 1
+  ID: 321
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &873992189
 Rigidbody:
@@ -9654,12 +9567,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 55
+  AutoRegister: 1
+  ID: 322
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &879255894
 Rigidbody:
@@ -9788,12 +9699,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 79
+  AutoRegister: 1
+  ID: 323
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &890429825
 Rigidbody:
@@ -9922,12 +9831,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 17
+  AutoRegister: 1
+  ID: 324
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &898941585
 Rigidbody:
@@ -10056,12 +9963,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 7
+  AutoRegister: 1
+  ID: 325
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &901761003
 Rigidbody:
@@ -10190,12 +10095,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 35
+  AutoRegister: 1
+  ID: 326
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &905725633
 Rigidbody:
@@ -10324,12 +10227,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 66
+  AutoRegister: 1
+  ID: 327
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &912859469
 Rigidbody:
@@ -10458,12 +10359,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 16
+  AutoRegister: 1
+  ID: 328
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &925813908
 Rigidbody:
@@ -10592,12 +10491,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 145
+  AutoRegister: 1
+  ID: 329
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &934644702
 Rigidbody:
@@ -10726,12 +10623,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 106
+  AutoRegister: 1
+  ID: 330
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &956561641
 Rigidbody:
@@ -10860,12 +10755,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 99
+  AutoRegister: 1
+  ID: 331
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &956920460
 Rigidbody:
@@ -10961,90 +10854,11 @@ Transform:
   m_Father: {fileID: 542548183}
   m_RootOrder: 99
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &963194225
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 963194228}
-  - component: {fileID: 963194227}
-  - component: {fileID: 963194226}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &963194226
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
---- !u!20 &963194227
+--- !u!20 &963194227 stripped
 Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 3560449925797841242, guid: 7d4b22a7f49690c45bf09cd7e304c4e2, type: 3}
+  m_PrefabInstance: {fileID: 3560449925379925033}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &963194228
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.027834443, y: 0, z: 0, w: 0.9996125}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1450027956}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 3.19, y: -0, z: 0}
 --- !u!1 &1010124038
 GameObject:
   m_ObjectHideFlags: 0
@@ -11078,12 +10892,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 108
+  AutoRegister: 1
+  ID: 332
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1010124040
 Rigidbody:
@@ -11212,12 +11024,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 22
+  AutoRegister: 1
+  ID: 333
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1016979797
 Rigidbody:
@@ -11346,12 +11156,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 91
+  AutoRegister: 1
+  ID: 334
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1020020576
 Rigidbody:
@@ -11480,12 +11288,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 119
+  AutoRegister: 1
+  ID: 335
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1027673507
 Rigidbody:
@@ -11614,12 +11420,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 101
+  AutoRegister: 1
+  ID: 336
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1034962340
 Rigidbody:
@@ -11748,12 +11552,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 2
+  AutoRegister: 1
+  ID: 337
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1054832722
 Rigidbody:
@@ -11882,12 +11684,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 13
+  AutoRegister: 1
+  ID: 338
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1061032391
 Rigidbody:
@@ -12174,12 +11974,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 134
+  AutoRegister: 1
+  ID: 339
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1088959325
 Rigidbody:
@@ -12308,12 +12106,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 95
+  AutoRegister: 1
+  ID: 340
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1104959337
 Rigidbody:
@@ -12442,12 +12238,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 8
+  AutoRegister: 1
+  ID: 341
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1106529465
 Rigidbody:
@@ -12576,12 +12370,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 6
+  AutoRegister: 1
+  ID: 342
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1106687686
 Rigidbody:
@@ -12710,12 +12502,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 61
+  AutoRegister: 1
+  ID: 343
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1133461384
 Rigidbody:
@@ -12844,12 +12634,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 162
+  AutoRegister: 1
+  ID: 344
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1145015278
 Rigidbody:
@@ -12978,12 +12766,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 41
+  AutoRegister: 1
+  ID: 345
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1145689847
 Rigidbody:
@@ -13112,12 +12898,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 105
+  AutoRegister: 1
+  ID: 346
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1155759362
 Rigidbody:
@@ -13246,12 +13030,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 39
+  AutoRegister: 1
+  ID: 347
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1158205441
 Rigidbody:
@@ -13380,12 +13162,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 109
+  AutoRegister: 1
+  ID: 348
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1169022528
 Rigidbody:
@@ -13514,12 +13294,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 54
+  AutoRegister: 1
+  ID: 349
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1169427707
 Rigidbody:
@@ -13648,12 +13426,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 158
+  AutoRegister: 1
+  ID: 350
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1182071094
 Rigidbody:
@@ -13840,7 +13616,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1182994986}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.0836, y: 0.7759, z: 17.2709}
+  m_LocalPosition: {x: 4.0836, y: -13.89, z: 17.2709}
   m_LocalScale: {x: 8.058197, y: 2.8208, z: 8.313226}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13880,12 +13656,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 129
+  AutoRegister: 1
+  ID: 351
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1184129358
 Rigidbody:
@@ -14014,12 +13788,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 19
+  AutoRegister: 1
+  ID: 352
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1214247555
 Rigidbody:
@@ -14148,12 +13920,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 127
+  AutoRegister: 1
+  ID: 353
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1226245980
 Rigidbody:
@@ -14282,12 +14052,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 76
+  AutoRegister: 1
+  ID: 354
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1240532717
 Rigidbody:
@@ -14416,12 +14184,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 138
+  AutoRegister: 1
+  ID: 355
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1270912663
 Rigidbody:
@@ -14550,12 +14316,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 86
+  AutoRegister: 1
+  ID: 356
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1274422583
 Rigidbody:
@@ -14684,12 +14448,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 80
+  AutoRegister: 1
+  ID: 357
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1280847166
 Rigidbody:
@@ -14818,12 +14580,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 33
+  AutoRegister: 1
+  ID: 358
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1289903620
 Rigidbody:
@@ -14952,12 +14712,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 44
+  AutoRegister: 1
+  ID: 359
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1292947656
 Rigidbody:
@@ -15086,12 +14844,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 165
+  AutoRegister: 1
+  ID: 360
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1314711797
 Rigidbody:
@@ -15220,12 +14976,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 57
+  AutoRegister: 1
+  ID: 361
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1355212844
 Rigidbody:
@@ -15354,12 +15108,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 141
+  AutoRegister: 1
+  ID: 362
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1362977992
 Rigidbody:
@@ -15488,12 +15240,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 137
+  AutoRegister: 1
+  ID: 363
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1389865649
 Rigidbody:
@@ -15622,12 +15372,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 124
+  AutoRegister: 1
+  ID: 364
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1394009375
 Rigidbody:
@@ -15756,12 +15504,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 82
+  AutoRegister: 1
+  ID: 365
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1415579289
 Rigidbody:
@@ -15890,12 +15636,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 69
+  AutoRegister: 1
+  ID: 366
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1416865800
 Rigidbody:
@@ -16024,12 +15768,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 136
+  AutoRegister: 1
+  ID: 367
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1434500013
 Rigidbody:
@@ -16158,12 +15900,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 30
+  AutoRegister: 1
+  ID: 368
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1435241043
 Rigidbody:
@@ -16259,139 +15999,6 @@ Transform:
   m_Father: {fileID: 542548183}
   m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1450027951
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1450027956}
-  - component: {fileID: 1450027955}
-  - component: {fileID: 1450027954}
-  - component: {fileID: 1450027953}
-  - component: {fileID: 1450027952}
-  - component: {fileID: 1450027957}
-  m_Layer: 0
-  m_Name: Player
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!54 &1450027952
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450027951}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
---- !u!136 &1450027953
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450027951}
-  m_Material: {fileID: 13400000, guid: 885d835168a54a243b36534cbca5ab11, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1450027954
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450027951}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1450027955
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450027951}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1450027956
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450027951}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.9, y: 4.2554092, z: 46.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 963194228}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1450027957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450027951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6f6f599559de734e98309542dfcf48b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 7
-  jumpSpeed: 10
-  sensitivity: 3
-  yRotationLimit: 90
 --- !u!1 &1458889171
 GameObject:
   m_ObjectHideFlags: 0
@@ -16425,12 +16032,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 85
+  AutoRegister: 1
+  ID: 369
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1458889173
 Rigidbody:
@@ -16559,12 +16164,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 59
+  AutoRegister: 1
+  ID: 370
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1470261479
 Rigidbody:
@@ -16693,12 +16296,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 140
+  AutoRegister: 1
+  ID: 371
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1491209231
 Rigidbody:
@@ -16827,12 +16428,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 73
+  AutoRegister: 1
+  ID: 372
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1506758608
 Rigidbody:
@@ -16961,12 +16560,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 147
+  AutoRegister: 1
+  ID: 373
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1508771663
 Rigidbody:
@@ -17095,12 +16692,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 64
+  AutoRegister: 1
+  ID: 374
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1534228502
 Rigidbody:
@@ -17229,12 +16824,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 9
+  AutoRegister: 1
+  ID: 375
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1535549555
 Rigidbody:
@@ -17363,12 +16956,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 97
+  AutoRegister: 1
+  ID: 376
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1555660704
 Rigidbody:
@@ -17497,12 +17088,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 12
+  AutoRegister: 1
+  ID: 377
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1558166574
 Rigidbody:
@@ -17631,12 +17220,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 28
+  AutoRegister: 1
+  ID: 378
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1568625332
 Rigidbody:
@@ -17765,12 +17352,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 70
+  AutoRegister: 1
+  ID: 379
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1586191827
 Rigidbody:
@@ -17899,12 +17484,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 92
+  AutoRegister: 1
+  ID: 380
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1592969316
 Rigidbody:
@@ -18033,12 +17616,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 90
+  AutoRegister: 1
+  ID: 381
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1593924148
 Rigidbody:
@@ -18167,12 +17748,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 21
+  AutoRegister: 1
+  ID: 382
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1644262761
 Rigidbody:
@@ -18436,12 +18015,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 155
+  AutoRegister: 1
+  ID: 383
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1646974166
 Rigidbody:
@@ -18570,12 +18147,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 126
+  AutoRegister: 1
+  ID: 384
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1647760440
 Rigidbody:
@@ -18704,12 +18279,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 5
+  AutoRegister: 1
+  ID: 385
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1658082303
 Rigidbody:
@@ -18838,12 +18411,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 49
+  AutoRegister: 1
+  ID: 386
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1659122795
 Rigidbody:
@@ -18972,12 +18543,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 11
+  AutoRegister: 1
+  ID: 387
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1697355635
 Rigidbody:
@@ -19106,12 +18675,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 154
+  AutoRegister: 1
+  ID: 388
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1706634615
 Rigidbody:
@@ -19240,12 +18807,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 34
+  AutoRegister: 1
+  ID: 389
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1732278813
 Rigidbody:
@@ -19374,12 +18939,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 10
+  AutoRegister: 1
+  ID: 390
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1733167690
 Rigidbody:
@@ -19508,12 +19071,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 29
+  AutoRegister: 1
+  ID: 391
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1739539419
 Rigidbody:
@@ -19642,12 +19203,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 122
+  AutoRegister: 1
+  ID: 392
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1740177584
 Rigidbody:
@@ -19776,12 +19335,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 120
+  AutoRegister: 1
+  ID: 393
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1750154233
 Rigidbody:
@@ -19910,12 +19467,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 31
+  AutoRegister: 1
+  ID: 394
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1752088430
 Rigidbody:
@@ -20044,12 +19599,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 104
+  AutoRegister: 1
+  ID: 395
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1760123409
 Rigidbody:
@@ -20178,12 +19731,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 164
+  AutoRegister: 1
+  ID: 396
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1761024568
 Rigidbody:
@@ -20312,12 +19863,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 102
+  AutoRegister: 1
+  ID: 397
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1761026330
 Rigidbody:
@@ -20446,12 +19995,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 163
+  AutoRegister: 1
+  ID: 398
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1773469131
 Rigidbody:
@@ -20580,12 +20127,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 146
+  AutoRegister: 1
+  ID: 399
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1787767796
 Rigidbody:
@@ -20714,12 +20259,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 65
+  AutoRegister: 1
+  ID: 400
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1828924121
 Rigidbody:
@@ -20848,12 +20391,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 167
+  AutoRegister: 1
+  ID: 401
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1831382541
 Rigidbody:
@@ -20982,12 +20523,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 52
+  AutoRegister: 1
+  ID: 402
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1838622562
 Rigidbody:
@@ -21232,12 +20771,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 98
+  AutoRegister: 1
+  ID: 403
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1888660708
 Rigidbody:
@@ -21366,12 +20903,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 83
+  AutoRegister: 1
+  ID: 404
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1898821799
 Rigidbody:
@@ -21500,12 +21035,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 78
+  AutoRegister: 1
+  ID: 405
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1909019505
 Rigidbody:
@@ -21634,12 +21167,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 23
+  AutoRegister: 1
+  ID: 406
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1912828872
 Rigidbody:
@@ -21768,12 +21299,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 152
+  AutoRegister: 1
+  ID: 407
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1915592701
 Rigidbody:
@@ -21902,12 +21431,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 149
+  AutoRegister: 1
+  ID: 408
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1920617264
 Rigidbody:
@@ -22036,12 +21563,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 74
+  AutoRegister: 1
+  ID: 409
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1948069673
 Rigidbody:
@@ -22170,12 +21695,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 96
+  AutoRegister: 1
+  ID: 410
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1948967268
 Rigidbody:
@@ -22304,12 +21827,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 113
+  AutoRegister: 1
+  ID: 411
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1951217594
 Rigidbody:
@@ -22438,12 +21959,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 159
+  AutoRegister: 1
+  ID: 412
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1989106796
 Rigidbody:
@@ -22572,12 +22091,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 45
+  AutoRegister: 1
+  ID: 413
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &1993359530
 Rigidbody:
@@ -22706,12 +22223,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 135
+  AutoRegister: 1
+  ID: 414
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &2020622194
 Rigidbody:
@@ -22840,12 +22355,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 103
+  AutoRegister: 1
+  ID: 415
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &2059480349
 Rigidbody:
@@ -22974,12 +22487,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 62
+  AutoRegister: 1
+  ID: 416
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &2071602918
 Rigidbody:
@@ -23108,12 +22619,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 94
+  AutoRegister: 1
+  ID: 417
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &2072356630
 Rigidbody:
@@ -23242,12 +22751,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 47
+  AutoRegister: 1
+  ID: 418
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &2073062475
 Rigidbody:
@@ -23376,12 +22883,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 4
+  AutoRegister: 1
+  ID: 419
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &2080657106
 Rigidbody:
@@ -23510,12 +23015,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 156
+  AutoRegister: 1
+  ID: 420
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &2097492135
 Rigidbody:
@@ -23644,12 +23147,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 110
+  AutoRegister: 1
+  ID: 421
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &2098498149
 Rigidbody:
@@ -23778,12 +23279,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 116
+  AutoRegister: 1
+  ID: 422
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &2107601845
 Rigidbody:
@@ -23912,12 +23411,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 160
+  AutoRegister: 1
+  ID: 423
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &2109063984
 Rigidbody:
@@ -24194,12 +23691,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af7cd143ec84efb8aff8493767d9f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlashWhenSend: 0
-  FlashWhenUpdated: 0
   accumulated: 0
-  ID: 3
+  AutoRegister: 1
+  ID: 424
   AutoID: 1
-  Authority: 0
   Owned: 0
 --- !u!54 &2120084261
 Rigidbody:
@@ -24295,3 +23790,64 @@ Transform:
   m_Father: {fileID: 542548183}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3560449925379925033
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3560449924069560198, guid: 7d4b22a7f49690c45bf09cd7e304c4e2, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3560449924069560198, guid: 7d4b22a7f49690c45bf09cd7e304c4e2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3560449924069560221, guid: 7d4b22a7f49690c45bf09cd7e304c4e2, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3560449924069560221, guid: 7d4b22a7f49690c45bf09cd7e304c4e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3560449924069560221, guid: 7d4b22a7f49690c45bf09cd7e304c4e2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3560449924069560221, guid: 7d4b22a7f49690c45bf09cd7e304c4e2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3560449924069560221, guid: 7d4b22a7f49690c45bf09cd7e304c4e2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3560449924069560221, guid: 7d4b22a7f49690c45bf09cd7e304c4e2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3560449924069560221, guid: 7d4b22a7f49690c45bf09cd7e304c4e2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3560449924069560221, guid: 7d4b22a7f49690c45bf09cd7e304c4e2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3560449924069560221, guid: 7d4b22a7f49690c45bf09cd7e304c4e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3560449924069560221, guid: 7d4b22a7f49690c45bf09cd7e304c4e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3560449924069560221, guid: 7d4b22a7f49690c45bf09cd7e304c4e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7d4b22a7f49690c45bf09cd7e304c4e2, type: 3}

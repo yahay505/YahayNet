@@ -16,6 +16,7 @@ namespace Network
         public int ID;
         public int frameNo;
         public PacketFlag Flags;
+        private bool isFlagsRead = false;
 
         /// <summary>Creates a new empty packet (without an ID).</summary>
         public Packet()
@@ -49,6 +50,11 @@ namespace Network
 
         public void ReadIDnFlags()
         {
+            if (isFlagsRead)
+            {
+                throw new Exception("Tried reading flags on packet with flags already read!");
+            }
+            isFlagsRead = true;
             ID = ReadInt();
             Flags = (PacketFlag) ReadByte();
             if ((Flags & PacketFlag.FrameInfo)!=0)
@@ -87,7 +93,7 @@ namespace Network
         }
 
         /// <summary>Inserts the length of the packet's content at the start of the buffer.</summary>
-        public void WriteLength()
+        private void WriteLength()
         {
             buffer.InsertRange(0,
                 BitConverter.GetBytes(buffer.Count)); // Insert the byte length of the packet at the very beginning
@@ -596,6 +602,9 @@ namespace Network
         }
     }
 
+
+    
+    
     [Flags]
     
     public enum PacketFlag:byte

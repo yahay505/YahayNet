@@ -1,29 +1,18 @@
-using System;
+﻿using Network.Physics;
 using UnityEngine;
-using UnityTools;
 using static UnityTools.EasyVec;
-
-namespace Player
+namespace Avatar
 {
-    public class PlayerController : MonoBehaviour
+    public partial class AvatarController
     {
-        private AutoGet<Rigidbody> rb;
-        private AutoFind<Camera> cam = new();
-        [SerializeField] private float speed;
+        
 
-        public PlayerController()
+        private void Local_FixedUpdate()
         {
-            rb = new(this);
+
         }
 
-        // Start is called before the first frame update
-        void Start()
-        {
-            Cursor.lockState = CursorLockMode.None;
-        }
-
-
-        void Update()
+        void Local_Update()
         {
             updateVelocity();
 
@@ -95,7 +84,7 @@ namespace Player
             private void updateVelocity()
             {
                 Vector3 newVelocity = Vector3.zero;
-                var y = rb.get().velocity.y;
+                var y = rb.velocity.y;
                 newVelocity.x = 0;
                 newVelocity.z = 0;
                 if (Input.GetKey(KeyCode.W))
@@ -119,7 +108,7 @@ namespace Player
                 }
 
                 newVelocity.y = y;
-                rb.get().velocity = newVelocity;
+                rb.velocity = newVelocity;
             }
 
 
@@ -140,13 +129,13 @@ namespace Player
                 var xQuat = Quaternion.AngleAxis(rotation.x, Vector3.up);
                 var yQuat = Quaternion.AngleAxis(rotation.y, Vector3.left);
 
-                cam.value.transform.localRotation =  yQuat; //Quaternions seem to rotate more consistently than EulerAngles. Sensitivity seemed to change slightly at certain degrees using Euler. transform.localEulerAngles = new Vector3(-rotation.y, rotation.x, 0);
+                Camera.main!.transform.localRotation =  yQuat; //Quaternions seem to rotate more consistently than EulerAngles. Sensitivity seemed to change slightly at certain degrees using Euler. transform.localEulerAngles = new Vector3(-rotation.y, rotation.x, 0);
                 transform.localRotation = xQuat;
             }
         #endregion
 
         
-        private void OnDrawGizmos()
+        private void Local_OnDrawGizmos()
         {
             
             Gizmos.color= Color.cyan;
@@ -159,6 +148,5 @@ namespace Player
             // Gizmos.DrawRay(transform.right,
             //     transform.right - vec(0, Vector3.Dot(transform.right, Vector3.up), 0));
         }
-
     }
 }
