@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityTools;
+using UnityTools.Editor;
 
 namespace Network.Physics
 {
@@ -14,7 +15,7 @@ namespace Network.Physics
         Rigidbody rb;
         public bool AutoRegister;
         public static ushort nextID=256;
-
+        [ReadOnly,SerializeField]private int authorityPropagationNo=0;
         private void Awake()
         {
             rb = GetComponent<Rigidbody>();
@@ -47,6 +48,7 @@ namespace Network.Physics
 
         private void FixedUpdate()
         {
+            
 
             OwnershipUpdate();
             if (accumulated>=0)
@@ -89,7 +91,7 @@ namespace Network.Physics
         // {
         //     networkedBody.Authority = owner;
         // }
-
+        private int sleepTicks;
         private void OwnershipUpdate()
         {
             rb.isKinematic = !NetworkManager.main.isConnected;
@@ -97,7 +99,21 @@ namespace Network.Physics
             changeTimer -= Time.fixedDeltaTime;
             if (rb.IsSleeping())
             {
-                TryChangeAuthority(0);
+                sleepTicks++;
+                if (sleepTicks>100)
+                {
+                    if (TryChangeAuthority(0))
+                    {
+                        authorityPropagationNo = 0;
+                    }
+
+                    
+                    
+                }
+            }
+            else
+            {
+                sleepTicks = 0;
             }
             
         }
@@ -108,7 +124,13 @@ namespace Network.Physics
                 accumulated += collision.relativeVelocity.sqrMagnitude;
                 if (collision.rigidbody&&collision.rigidbody.velocity.sqrMagnitude>rb.velocity.sqrMagnitude&&collision.rigidbody.TryGetComponent<NetworkedBody>(out var body))//if other is faster than us we change to their authority;
                 {
-                    TryChangeAuthority(body.Authority);
+                    if (body.Authority!=0&&body.authorityPropagationNo<255&&TryChangeAuthority(body.Authority))
+                    {
+                        accumulated += 100;
+                        authorityPropagationNo = body.authorityPropagationNo + 1;
+                    }
+
+                    
                 }
             
 
@@ -125,10 +147,17 @@ namespace Network.Physics
             {
                 return false;
             }
+
+            if (Authority==authority)
+            {
+                return false;
+
+            }
             else
             {
                 Authority = authority;
                 changeTimer = 3;
+                //emit message
                 return true;
             }
         }

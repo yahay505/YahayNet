@@ -110,7 +110,7 @@ namespace Network.Transport.TCP
                 {
                     Debug.LogError($"Error in TCP Handling packet with (id:{packet.ID},size:{packet.Length()}) \n Content:{packet.ToArray().ToHexString()} \n err:{e}");
                     // Debug.LogError($"Error in TCP Handling packet with (id:{packet.ID},size:{packet.Length()}) \n Content:{packet.ToArray().ToHexString()} ");
-                    throw;
+                    // throw;
                 }
             
             }

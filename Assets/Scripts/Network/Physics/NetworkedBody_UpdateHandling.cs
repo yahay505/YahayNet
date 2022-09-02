@@ -106,7 +106,7 @@ namespace Network.Physics
             if (hasAuthortyInfo)
             {
                 item.Authority = update.Auth.ID;
-                Debug.Log($"tried set auth to {update.Auth.ID} in {update.ID} - {item.gameObject.name}");
+                // Debug.Log($"tried set auth to {update.Auth.ID} in {update.ID} - {item.gameObject.name}");
             }
 
             if (kinematic != item.rb.isKinematic)
@@ -117,7 +117,7 @@ namespace Network.Physics
             if (sleep)
             {
                 item.StopCoroutine(FSleep(5, null));
-
+            
                 item.StartCoroutine(FSleep(1, item.rb));
             }
             else
@@ -145,11 +145,15 @@ namespace Network.Physics
         {
             var item = allBodies[update.ID];
 
-            if (update.Auth.ID==NetworkManager.main.LocalPeer.ID&&item.Authority==update.Auth.ID)
+            // if (update.Auth.ID==NetworkManager.main.LocalPeer.ID&&item.Authority==update.Auth.ID)
+            // {
+            //     return false;
+            // }
+
+            if (item.Authority==NetworkManager.main.LocalPeer.ID)
             {
                 return false;
             }
-
             return true;
         }
 
@@ -171,7 +175,9 @@ namespace Network.Physics
                 // GetComponent<MeshRenderer>().material.SetColor("_Color", clrold);
                 // FlashWhenSend -= Time.deltaTime / flashTime;
                 // FlashWhenUpdated -= Time.deltaTime / flashTime;
-UnityEngine.Mathf.rgb
+
+GetComponent<MeshRenderer>().material.SetColor("_Color", Color.HSVToRGB(Authority/5.5f,.9f,.9f));
+
                 yield return null;
             }
         }

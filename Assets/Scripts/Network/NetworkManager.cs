@@ -10,7 +10,7 @@ namespace Network
 
     public class NetworkManager : UniversalComponent<NetworkManager>
     {
-        public const int fixed2NetworkRatio = 1;
+        public const int fixed2NetworkRatio = 12;
 
         public bool isConnected =>
             selectedServerOrClient && (isServer ? ServerManager.isConnected : ClientManager.isConnected);
